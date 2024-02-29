@@ -1,0 +1,9 @@
+# Quita la carpeta events
+events
+# Quita todos los archivos .class dentro de la carpeta layers
+layers/**/*.class
+# Quita todos los archivos terminados en lock.json del repositorio
+*lock.json
+# Quita lo que contenga la carpeta node_modules dentro de src sin eliminar la carpeta
+node_modules/**
+
